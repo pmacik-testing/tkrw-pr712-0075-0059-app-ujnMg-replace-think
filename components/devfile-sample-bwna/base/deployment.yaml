@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-bwna
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0059-tenant/tkrw-pr712-0075-0059-app/devfile-sample-bwna@sha256:4a545ffbaaa1bd6e8ebc71970481ebe745c72c8761bfcf7f80592bd46c8483ac
         name: my-nodejs
         ports:
         - containerPort: 3001
